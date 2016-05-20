@@ -134,8 +134,7 @@ def main():
       elif ans=='4':
         break
       else:
-        print("\n Invalid Choice!! Try again")
-        break
+        print("\n Invalid Choice!! Try again") 
       sleep(60)
       print 'Updated Results'
       os.system('clear')
