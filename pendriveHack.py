@@ -18,7 +18,7 @@ def CopyFile(src, dest,f):
         f.write('\nOops Error: %s' % er)
     
     except IOError as er:
-        f.write('\nOops Error: %s' % e.strerror)
+        f.write('\nOops Error: %s' % er.strerror)
 
 
 def main():
